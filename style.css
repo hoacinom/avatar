@@ -1,0 +1,16 @@
+#characterEditContainer {
+	display: grid;
+	grid-template-columns: min-content auto;
+}
+
+#categoryContainer {
+	display: grid;
+	grid-template-columns: 200px min-content;
+	grid-auto-rows: min-content;
+}
+
+body {
+	background: #23232b;
+	color: hsla(237, 15%, 72%, 1);
+	font-family: sans-serif;
+}
